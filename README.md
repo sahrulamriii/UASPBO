@@ -6,38 +6,40 @@ https://dev.to/yudhasdev/tutorial-github-3-bagaimana-cara-menggunakan-branch-dan
 Silahkan bisa clone repository ini :
 1. siapkan forder untuk menampung project
 2. klik kalan dan pilih git bash here
-3. jalankan perintah berikut :
-    git clone <link repo>
-4. Sebelum itu, lakukan clone repository
+3. jalankan perintah berikut :</br>
+    git clone <link_repo>
+4. Sebelum itu, lakukan clone repository </br>
    link repo bisa didapatkan dari tombol code pada web repo github
-5. buat branch baru dengan menjalankan command :
-   git branch <nama branch>
-6. pindah ke branch yang sudah dibuat :
-   git checkout <nama branch>
+5. buat branch baru dengan menjalankan command : </br>
+   git branch <nama_branch>
+6. pindah ke branch yang sudah dibuat : </br>
+   git checkout <nama_branch>
 7. silahkan lakukan perubahan
 8. jangan lupa import database
-9. cara import database :
+9. cara import database : </br>
     https://youtu.be/ZRrwZzRmpGk?si=FPSfojVlVbLfeeHi
-11. lakukan commit setelah selesai
+11. lakukan commit setelah selesai </br>
    git commit -m "pesan commit"
-12. lakukan push
-    git push origin <nama branch>
+12. lakukan push </br>
+    git push origin <nama_branch>
 
 Database terdiri dari 3 tabel yaitu :
-1. Tabel fakultas
-   atribut tabel :
-   a. id_fakultas
+1. Tabel fakultas </br>
+   atribut tabel : </br>
+   a. id_fakultas </br>
    b. fakultas
-3. tabel prodi
-   a. id_prodi
+3. tabel prodi </br>
+   atribut tabel : </br>
+   a. id_prodi </br>
    b. prodi
-5. tabel peserta
-   a. id_peserta
-   b. id_fakultas
-   c. id_prodi
-   d. nama
-   e. kota
-   f. tgl_lahir
+5. tabel peserta </br>
+   atribut tabel : </br>
+   a. id_peserta </br>
+   b. id_fakultas </br>
+   c. id_prodi </br>
+   d. nama </br>
+   e. kota </br>
+   f. tgl_lahir </br>
    g. alamat
 
 ## ___Setiap table berelasi dengan table lainnya___
